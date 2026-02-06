@@ -1,0 +1,38 @@
+\kafkasection{In class, we derived $\pdv{\braket{x}}{t} = \frac{\braket{p}}{m}$ using the definition of expectation values, the schrodinger equation, and integration by parts.
+} 
+\kafkasubsection{Following a similar procedure, calculate $\pdv{\braket{p}}{t}$ and (using the schrodinger equation) first show that
+\begin{equation}
+    \pdv{\braket{p}}{t} = \int_{-\infty}^{\infty}\ab[-\frac{\hbar^2}{2m}\ab(\pdv[order=2]{\Psi}{x}\pdv{\Psi}{x} - \Psi^*\pdv[order=3]{\Psi}{x}) - \Psi^*\pdv{V}{x}\Psi]\d x
+\end{equation}
+[15 points]
+}
+Let's start by getting to our definition of $\braket{p}$:
+\begin{equation}
+    \braket{p} = -i\hbar\int_{-\infty}^{\infty}\Psi^*\pdv{\Psi}{x}
+\end{equation}
+Then we can take the partial w.r.t time:
+\begin{equation}
+    \pdv{\braket{p}}{t} = -i\hbar\int_{-\infty}^{\infty}\pdv{}{t}\ab(\Psi^*\pdv{\Psi}{x})
+\end{equation}
+Using the product rule this partial in the right side becomes:
+\begin{align}
+    \pdv*{\ab(\Psi^*\pdv{\Psi}{x})}{t} &= \pdv{\Psi^*}{t}\pdv{\Psi}{x} + \Psi^*\pdv*{\pdv{\Psi}{x}}{t}\\
+    &= \pdv{\Psi^*}{t}\pdv{\Psi}{x} + \Psi^*\pdv*{\pdv{\Psi}{t}}{x}
+\end{align}
+So now our partial momentum with time becomes:
+\begin{align}
+    \pdv{\braket{p}}{t} &= \int_{-\infty}^{\infty}-i\hbar\ab( \pdv{\Psi^*}{t}\pdv{\Psi}{x} + \Psi^*\pdv*{\pdv{\Psi}{t}}{x})\\
+    &= \int_{-\infty}^{\infty}\ab(-i\hbar\pdv{\Psi^*}{t})\pdv{\Psi}{x} + \pdv*{\ab(-i\hbar\pdv{\Psi}{t})}{x}\Psi^*\\
+    &= 
+\end{align}
+
+
+
+
+\kafkasubsection{Furthermore, you can use integration by parts to show that
+\begin{equation}
+    \int_{-\infty}^{\infty}\ab(\pdv[order=2]{\Psi^*}{x}\pdv{\Psi}{x}-\Psi^*\pdv[order=3]{\Psi}{x})\d x = 0
+\end{equation}
+Which means that the original equation $\pdv{\braket{p}}{t} = \braket{-\pdv{V}{x}}$? [15 points]
+Assume that $\Psi$ and its derivatives vanish at $\pm \infty$, i.e infinitely far away.
+}
