@@ -1,4 +1,5 @@
 # Fdb version 4
+<<<<<<< HEAD:HW02/build/main.fdb_latexmk
 ["bibtex build/main"] 1770411961.33549 "build/main.aux" "build/main.bbl" "build/main" 1770411962.91752 0
   "./Refs.bib" 1770434610 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
@@ -8,6 +9,9 @@
   "build/main.blg"
   (rewritten before read)
 ["pdflatex"] 1770411961.44587 "/home/jaynardk/school/winter25/asph509/HW02/main.tex" "build/main.pdf" "main" 1770411962.91763 0
+=======
+["pdflatex"] 1770432601.31031 "/home/jaynardk/school/winter25/phys443/HW01/main.tex" "build/main.pdf" "main" 1770432603.49505 0
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.fdb_latexmk
   "/etc/texmf/web2c/texmf.cnf" 1770359564.85098 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jaynardk/school/winter25/asph509/HW02/main.tex" 1770434610 1912 eed4b46ce96690266952365a85a9af15 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -79,6 +83,9 @@
   "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex" 1601326656 35249 abd4adf948f960299a4b3d27c5dddf46 ""
   "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex" 1673816307 22012 81b34a0aa8fa1a6158cc6220b00e4f10 ""
   "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex" 1601326656 8893 e851de2175338fdf7c17f3e091d94618 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex" 1601326656 15929 463535aa2c4268fead6674a75c0e8266 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex" 1673816307 4228 c39d423dc1a80da31c8c67bf1067f384 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex" 1601326656 3937 3f208572dd82c71103831da976d74f1a ""
   "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex" 1608933718 11518 738408f795261b70ce8dd47459171309 ""
   "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex" 1673816307 186782 af500404a9edec4d362912fe762ded92 ""
   "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex" 1601326656 58801 1e750fb0692eb99aaac45698bbec96b1 ""
@@ -246,6 +253,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770359582 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770359677 3348573 56496a3ce62a63360b1e30014a30b9b7 ""
+<<<<<<< HEAD:HW02/build/main.fdb_latexmk
   "Logo.png" 1770434610 52432 03ebcf495fd39aaf7d3320561be08453 ""
   "Question 1.tex" 1770411958.2074 1900 4916d8a9a93155be569ad41f7d359414 ""
   "Question 2.tex" 1770434610 5057 369b3115fc92e4bc22525c887a0c83d3 ""
@@ -257,6 +265,18 @@
   "build/main.toc" 1770411962.65735 204 bb2e9871e1f1b1f8148ae7a0cc909a5e "pdflatex"
   "main.tex" 1770434610 1912 eed4b46ce96690266952365a85a9af15 ""
   "packages.tex" 1770434610 6106 9e824db24b25ce3b1de1a4bcc13226fc ""
+=======
+  "Logo.png" 1770426702 52432 03ebcf495fd39aaf7d3320561be08453 ""
+  "Q1F2.jpg" 1770401669.24361 201746 78d3d3d2d926479d14bc63618fe0d112 ""
+  "Question 1.tex" 1770413061.40637 6312 d6d49bf6e534c7d598ca68c1f7776b16 ""
+  "Question 2.tex" 1770432601.09407 3176 6c9c9d80d4cca34d163fd05d98fca585 ""
+  "build/main.aux" 1770432603.40378 1474 75eca48db564eb142fcdc6dc8a1d434f "pdflatex"
+  "build/main.out" 1770432603.40478 749 ef0b1844bd39dae53fdaa85db0939e19 "pdflatex"
+  "build/main.toc" 1770432603.40478 394 c64781c10d2353eb912c46a45b283a0a "pdflatex"
+  "image.png" 1770426704 11501 39d04652c0bd507d82ffb34013dd404f ""
+  "main.tex" 1770408829.51335 1750 8c2a632a3c730a4f1a4dfabe1ed74dd9 ""
+  "packages.tex" 1770412876.30053 5913 af1351f92ddef3db403943af660abce2 ""
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.fdb_latexmk
   (generated)
   "build/main.aux"
   "build/main.log"

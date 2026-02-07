@@ -1,4 +1,8 @@
+<<<<<<< HEAD:HW02/build/main.log
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.5)  6 FEB 2026 14:06
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.5)  6 FEB 2026 19:50
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,7 +691,24 @@ Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials 
 \l__deriv_tmpb_int=\count366
 \l__deriv_seq_pos_int=\count367
 \l__deriv_sort_max_int=\count368
+<<<<<<< HEAD:HW02/build/main.log
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+=======
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen332
+\pgfarrowlength=\dimen333
+\pgfarrowwidth=\dimen334
+\pgfarrowlinewidth=\dimen335
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -695,6 +716,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count369
 \Gm@cntv=\count370
 \c@Gm@tempcnt=\count371
+<<<<<<< HEAD:HW02/build/main.log
 \Gm@bindingoffset=\dimen332
 \Gm@wd@mp=\dimen333
 \Gm@odd@mp=\dimen334
@@ -703,6 +725,16 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen337
 \Gm@layouthoffset=\dimen338
 \Gm@layoutvoffset=\dimen339
+=======
+\Gm@bindingoffset=\dimen336
+\Gm@wd@mp=\dimen337
+\Gm@odd@mp=\dimen338
+\Gm@even@mp=\dimen339
+\Gm@layoutwidth=\dimen340
+\Gm@layoutheight=\dimen341
+\Gm@layouthoffset=\dimen342
+\Gm@layoutvoffset=\dimen343
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 \Gm@dimlist=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -736,11 +768,16 @@ LaTeX Info: Redefining \checkoddpage on input line 59.
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip83
+<<<<<<< HEAD:HW02/build/main.log
 \enit@outerparindent=\dimen340
+=======
+\enit@outerparindent=\dimen344
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 \enit@toks=\toks53
 \enit@inbox=\box146
 \enit@count@id=\count375
 \enitdp@description=\count376
+<<<<<<< HEAD:HW02/build/main.log
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -754,21 +791,47 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@indent=\dimen346
 \caption@parindent=\dimen347
 \caption@hangindent=\dimen348
+=======
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen345
+\captionmargin=\dimen346
+\caption@leftmargin=\dimen347
+\caption@rightmargin=\dimen348
+\caption@width=\dimen349
+\caption@indent=\dimen350
+\caption@parindent=\dimen351
+\caption@hangindent=\dimen352
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count377
 \c@continuedfloat=\count378
 Package caption Info: changepage package is loaded.
+<<<<<<< HEAD:HW02/build/main.log
 \caption@adjustwidth@hsize=\dimen349
 \caption@adjustwidth@linewidth=\dimen350
+=======
+\caption@adjustwidth@hsize=\dimen353
+\caption@adjustwidth@linewidth=\dimen354
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
+<<<<<<< HEAD:HW02/build/main.log
 \SC@BOXWD=\dimen351
 \SC@CAPWD=\dimen352
 \SC@tempdima=\dimen353
 \SC@tempdimb=\dimen354
+=======
+\SC@BOXWD=\dimen355
+\SC@CAPWD=\dimen356
+\SC@tempdima=\dimen357
+\SC@tempdimb=\dimen358
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 \c@SC@C=\count379
 \SC@BOX=\box147
 ) (/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
@@ -781,24 +844,40 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@cmds=\toks57
 \SOUL@buffer=\toks58
 \SOUL@token=\toks59
+<<<<<<< HEAD:HW02/build/main.log
 \SOUL@syllgoal=\dimen355
 \SOUL@syllwidth=\dimen356
 \SOUL@charkern=\dimen357
 \SOUL@hyphkern=\dimen358
 \SOUL@dimen=\dimen359
 \SOUL@dimeni=\dimen360
+=======
+\SOUL@syllgoal=\dimen359
+\SOUL@syllwidth=\dimen360
+\SOUL@charkern=\dimen361
+\SOUL@hyphkern=\dimen362
+\SOUL@dimen=\dimen363
+\SOUL@dimeni=\dimen364
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 \SOUL@minus=\count380
 \SOUL@comma=\count381
 \SOUL@apo=\count382
 \SOUL@grave=\count383
 \SOUL@spaceskip=\skip84
+<<<<<<< HEAD:HW02/build/main.log
 \SOUL@ttwidth=\dimen361
 \SOUL@uldp=\dimen362
 \SOUL@ulht=\dimen363
+=======
+\SOUL@ttwidth=\dimen365
+\SOUL@uldp=\dimen366
+\SOUL@ulht=\dimen367
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 ) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+<<<<<<< HEAD:HW02/build/main.log
 \heavyrulewidth=\dimen364
 \lightrulewidth=\dimen365
 \cmidrulewidth=\dimen366
@@ -816,12 +895,35 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count386
 \@lastruleclass=\count387
 \@thisrulewidth=\dimen376
+=======
+\heavyrulewidth=\dimen368
+\lightrulewidth=\dimen369
+\cmidrulewidth=\dimen370
+\belowrulesep=\dimen371
+\belowbottomsep=\dimen372
+\aboverulesep=\dimen373
+\abovetopsep=\dimen374
+\cmidrulesep=\dimen375
+\cmidrulekern=\dimen376
+\defaultaddspace=\dimen377
+\@cmidla=\count384
+\@cmidlb=\count385
+\@aboverulesep=\dimen378
+\@belowrulesep=\dimen379
+\@thisruleclass=\count386
+\@lastruleclass=\count387
+\@thisrulewidth=\dimen380
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip85
 \multirow@cntb=\count388
 \multirow@dima=\skip86
+<<<<<<< HEAD:HW02/build/main.log
 \bigstrutjot=\dimen377
+=======
+\bigstrutjot=\dimen381
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip87
@@ -829,7 +931,11 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTpre=\skip89
 \LTpost=\skip90
 \LTchunksize=\count389
+<<<<<<< HEAD:HW02/build/main.log
 \LTcapwidth=\dimen378
+=======
+\LTcapwidth=\dimen382
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 \LT@head=\box148
 \LT@firsthead=\box149
 \LT@foot=\box150
@@ -882,7 +988,11 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
+<<<<<<< HEAD:HW02/build/main.log
 \@linkdim=\dimen379
+=======
+\@linkdim=\dimen383
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 \Hy@linkcounter=\count397
 \Hy@pagecounter=\count398
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -908,15 +1018,24 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count400
 LaTeX Info: Redefining \url on input line 4763.
+<<<<<<< HEAD:HW02/build/main.log
 \XeTeXLinkMargin=\dimen380
+=======
+\XeTeXLinkMargin=\dimen384
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count401
+<<<<<<< HEAD:HW02/build/main.log
 \Field@Width=\dimen381
 \Fld@charsize=\dimen382
+=======
+\Field@Width=\dimen385
+\Fld@charsize=\dimen386
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -970,6 +1089,7 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \mhchem@bondtmp@minussidebearingleft=\skip107
 \mhchem@bondtmp@minussidebearingright=\skip108
 \l__mhchem_option_version_int=\count410
+<<<<<<< HEAD:HW02/build/main.log
 \mhchem@option@minusmathsidebearingleft=\dimen383
 \mhchem@option@minusmathsidebearingright=\dimen384
 \mhchem@option@minustextsidebearingleft=\dimen385
@@ -982,6 +1102,14 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlength=\dimen388
 \pgfarrowwidth=\dimen389
 \pgfarrowlinewidth=\dimen390
+=======
+\mhchem@option@minusmathsidebearingleft=\dimen387
+\mhchem@option@minusmathsidebearingright=\dimen388
+\mhchem@option@minustextsidebearingleft=\dimen389
+\mhchem@option@minustextsidebearingright=\dimen390
+) (/usr/share/texlive/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/share/texlive/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/share/texlive/texmf-dist/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 )
 \CF_cnt_atomgroup=\count411
 \CF_cnt_group=\count412
@@ -1148,7 +1276,11 @@ Package chemgreek Info: Activating mapping `default' on line 6.
 LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
 (Font)              using `OT1/cmr/m/it' instead on input line 32.
 
+<<<<<<< HEAD:HW02/build/main.log
 <Logo.png, id=23, 219.06844pt x 225.84375pt>
+=======
+<Logo.png, id=35, 219.06844pt x 225.84375pt>
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 File: Logo.png Graphic file (type png)
 <use Logo.png>
 Package pdftex.def Info: Logo.png  used on input line 36.
@@ -1194,6 +1326,7 @@ l.5 ...mit compared to the pressure at sea level?}
                                                    [1]
 
 [2]
+<<<<<<< HEAD:HW02/build/main.log
 
 [3]) (./Question 3.tex) (./Question 4.tex
 Overfull \hbox (4.44443pt too wide) in paragraph at lines 14--5
@@ -1211,11 +1344,36 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 [5
 
 ] (build/main.aux)
+=======
+<image.png, id=94, 268.00125pt x 270.25969pt>
+File: image.png Graphic file (type png)
+<use image.png>
+Package pdftex.def Info: image.png  used on input line 117.
+(pdftex.def)             Requested size: 114.45123pt x 115.4135pt.
+
+
+[3]
+<Q1F2.jpg, id=103, 4095.3pt x 3083.52pt>
+File: Q1F2.jpg Graphic file (type jpg)
+<use Q1F2.jpg>
+Package pdftex.def Info: Q1F2.jpg  used on input line 140.
+(pdftex.def)             Requested size: 366.82716pt x 276.18741pt.
+)
+
+[4 <./image.png>]
+
+[5 <./Q1F2.jpg>] (./Question 2.tex
+
+[6])
+
+[7] (build/main.aux)
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD:HW02/build/main.log
 (rerunfilecheck)             Checksum: D9F7D044641ABFCE5C89A03A6B78CA0F;384.
  ) 
 Here is how much of TeX's memory you used:
@@ -1233,4 +1391,23 @@ PDF statistics:
  136 compressed objects within 2 object streams
  50 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+(rerunfilecheck)             Checksum: EF0B1844BD39DAE53FDAA85DB0939E19;749.
+ ) 
+Here is how much of TeX's memory you used:
+ 40415 strings out of 473197
+ 842340 string characters out of 5718606
+ 1252688 words of memory out of 5000000
+ 62977 multiletter control sequences out of 15000+600000
+ 565485 words of font info for 64 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,15n,120p,577b,1204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on build/main.pdf (9 pages, 411840 bytes).
+PDF statistics:
+ 214 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> e89f225 (HW01 Finished):HW01/build/main.log
 
