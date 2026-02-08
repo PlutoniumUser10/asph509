@@ -1,9 +1,9 @@
-PWD /home/jaynardk/school/winter25/asph509/HW04
+PWD /home/jaynardk/school/winter25/phys509/HW04
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/jaynardk/school/winter25/asph509/HW04/main.tex
+INPUT /home/jaynardk/school/winter25/phys509/HW04/main.tex
 OUTPUT build/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
