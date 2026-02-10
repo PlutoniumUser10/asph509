@@ -3,3 +3,33 @@ Take the magnetic field strength in some of the Crab’s filaments to be of orde
 If the electron energy is $10^9$ eV, show that the peak radiation will occur at about $600$ MHz. 
 or electron energies of $10^{12}$ eV, the radiation peaks in the visible
 part of the spectrum at $6 \cdot 10^{14}$ Hz.}
+We have the expression for the frequency of the classically moving electron in a uniform magnetic field.
+\begin{equation}
+    \nu = \frac{\omega}{2\pi} = \frac{qB}{2\pi mc} = \frac{(\qty{4.803e-10}{esu})(\qty{1e-4}{G})}{2\pi(\qty{9.11e-28}{g})(\qty{2.998e10}{cm/s})} = \qty{280}{Hz} \approx \qty{300}{Hz}
+\end{equation}
+This is of course, independent of the energy in any symobical sense (where we ignored factors of gamma that approximately equal 1)
+For higher energy electrons, we must reintroduce gamma $\gamma$. Let's calculate it for the giga-electron volt case.
+\begin{equation}
+    \gamma = \frac{E}{mc^2} = \frac{\qty{1e9}{eV}}{(\qty{0.511e6}{eV/c^2})c^2} = 1957
+\end{equation}
+So our expression for the characteristic synchrotron frequency is then:
+\begin{equation}
+    \omega_c = \frac{\gamma^2qB}{mc} = \qty{6.73e9}{Hz}
+\end{equation}
+The peak radiation is then at
+\begin{equation}
+    \frac{0.3\omega_c}{2\pi} \approx \qty{310}{Mhz} 
+\end{equation}
+Which is expected the text is about a factor of 2, too high. For the higher energy electron let's recalculate gamma:\
+\begin{equation}
+    \gamma = \frac{\qty{1e12}{eV}}{(\qty{0.511e6}{eV/c^2})c^2} = \qty{1.96e6}{}
+\end{equation}
+Oh this will be big. The characteristic synchrotron frequency is then:
+\begin{equation}
+    \omega_c = \qty{6.73e15}{Hz}
+\end{equation}
+We then get the peak radiation at:
+\begin{equation}
+    \frac{0.3\omega_c}{2\pi} \approx \qty{3.22e14}{Hz} 
+\end{equation}
+Again, it's about a factor of 2 off the text answer but we expect that.

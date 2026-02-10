@@ -1,4 +1,4 @@
 \contentsline {section}{Question 1}{1}{section.1}%
 \contentsline {section}{Question 2}{2}{section.2}%
-\contentsline {section}{Question 3}{4}{section.3}%
-\contentsline {section}{Question 4}{4}{section.4}%
+\contentsline {section}{Question 3}{5}{section.3}%
+\contentsline {section}{Question 4}{6}{section.4}%

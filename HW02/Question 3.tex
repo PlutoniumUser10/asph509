@@ -4,11 +4,45 @@ At what frequency is the flux the greatest?
 What is the energy density of photons in the container? 
 What is the approximate number density of photons in the container? 
 What is the photon pressure on the walls of the container?}
-The energy flux is given by:
+The equation governing the energy flux is given by:
 \begin{equation}
-    F = \int_0^{\infty} F_\nu \d\nu
+    B(T) = \frac{c}{4\pi}aT^4
 \end{equation}
-Where we integrate the spectral radiance over the frequencies. This spectral radiance is given by the Planck law for a black body.
+Where $c = \qty{2.998e10}{cm/s}$ and $a = \qty{7.56e-15}{erg/cm^3/K^4}$
+We get:
 \begin{equation}
-    F_\nu = u_\nu = \frac{8\pi h \nu^3}{c^3}\ab[\exp\ab(\frac{h\nu}{kT})-1]^{-1}
+    B(10K) = \frac{\qty{2.998e10}{cm/s}}{4\pi}(\qty{7.56e-15}{erg/cm^3/K^4})(\qty{10}{K})^4
 \end{equation}
+\begin{equation*}
+    \boxed{B(10K)= \qty{0.174}{erg/cm^2/s}}
+\end{equation*}
+The frequency where the flux is the greatest is approximated since no convienient analytical solutions exist. This is:
+\begin{equation}
+    \nu_{max} = \qty{5.88e10}{Hz/K}T = \qty{5.88e10}{Hz/K}(\qty{10}{K})
+\end{equation}
+\begin{equation*}
+    \boxed{\nu_{max} = \qty{5.88e11}{Hz}}
+\end{equation*}
+The energy density is given by 
+\begin{equation}
+    u(T) = aT^4 = (\qty{7.56e-15}{erg/cm^3/K^4})T^4
+\end{equation}
+Where we get:
+\begin{equation*}
+    u(T = \qty{10}{K}) = (\qty{7.56e-15}{erg/cm^3/K^4})(\qty{10}{K})^4 = \boxed{\qty{7.56e-11}{erg/cm^3}}
+\end{equation*}
+The approximate number density of photons in the container can be estimated by using the average photon energy ($k_B T$) and the energy density.
+\begin{equation*}
+    n_p = \frac{u(T)}{k_B T} = \frac{\qty{7.56e-11}{erg/cm^3}}{(\qty{1.381e-16}{erg/K})(\qty{10}{K})} = \qty{5.47e4}{cm^{-3}}
+\end{equation*}
+\begin{equation*}
+    \boxed{n_p = \qty{5.47e4}{cm^{-3}}} 
+\end{equation*}
+The photon pressure is simply:
+\begin{equation}
+    P = \frac{u(T)}{3} = \frac{\qty{7.56e-11}{erg/cm^3}}{3}
+\end{equation}
+\begin{equation}
+    \boxed{P = \qty{2.52e-11}{Ba}}
+\end{equation}
+\clearpage
