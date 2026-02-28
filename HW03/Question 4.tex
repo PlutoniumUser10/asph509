@@ -1,0 +1,85 @@
+\kafkasection{Calculate the luminosity for a supernova with initial Ni mass of $\qty{0.1}{M_{\solar}}$, at 100d after explosion, including both $^{56}$Ni and $^{56}$Co decay.}
+The decay of nickle has a half-life of $\tau = \qty{6.1}{days}$ and the decay of cobalt has a decay $\tau = \qty{77.7}{days}$. 
+We have the luminosity as:
+\begin{equation}
+    L = \epsilon \odv{M}{t} = \epsilon_m m_{nuc}\odv{N}{t}
+\end{equation}
+We also have our decay chains (nickle - cobalt - iron) where:
+\begin{equation}
+    \odv{N_{Ni}}{t} = -\lambda_{Ni}N_{N_i}
+    \label{eq:nickle}
+\end{equation}
+\begin{equation}
+    \odv{N_{Co}}{t} = -\lambda_{Co}N_{Co} + \ab(-\odv{N_{Ni}}{t})
+    \label{eq:cobalt}
+\end{equation}
+Let's solve the first equation (it's trivial):
+\begin{equation}
+    N_{N_i} = N_{Ni,0} e^{-\lambda_{Ni} t}
+\end{equation}
+Let's insert this solution into \ref{eq:nickle}:
+\begin{equation}
+    \odv{N_{Co}}{t} + \lambda_{Co}N_{Co} = \ab(-\odv{N_{Ni}}{t})
+\end{equation}
+\begin{equation}
+    \odv{N_{Co}}{t} + \lambda_{Co}N_{Co} = \lambda_{Ni} N_{Ni,0} e^{-\lambda_{Ni} t}
+\end{equation}
+This is a differential equation to solve:
+\begin{equation}
+    \int\lambda_{Co} \d t = \lambda_{Co}t
+\end{equation}
+\begin{equation}
+    u = e^{\lambda_{Co}t}
+\end{equation}
+\begin{equation}
+    N_{Co} e^{\lambda_{Co}t} = \int \lambda_{Ni} N_{Ni,0} e^{-\lambda_{Ni} t} e^{\lambda_{Co}t} \d t
+\end{equation}
+\begin{equation}
+    N_{Co}e^{\lambda_{Co}t} = \lambda_{Ni} N_{Ni,0} \frac{1}{\lambda_{Co} - \lambda_{Ni}} e^{t(\lambda_{Co} - \lambda_{Ni})} + C
+\end{equation}
+Since $N_{Co}(0) = 0$, We have
+\begin{equation}
+    C = -\frac{\lambda_{Ni} N_{Ni,0}}{\lambda_{Co} - \lambda_{Ni}}
+\end{equation}
+So finally
+\begin{equation}
+    N_{Co} = \frac{\lambda_{Ni} N_{Ni,0}}{\lambda_{Co} - \lambda_{Ni}}e^{-t\lambda_{Ni}} -\frac{\lambda_{Ni} N_{Ni,0}}{\lambda_{Co} - \lambda_{Ni}}e^{-t\lambda_{Co}}
+\end{equation}
+\begin{equation}
+    N_{Co} = \frac{\lambda_{Ni} N_{Ni,0}}{\lambda_{Co} - \lambda_{Ni}}\ab(e^{-t\lambda_{Ni}} - e^{-t\lambda_{Co}})
+\end{equation}
+So our full derivative is then:
+\begin{equation}
+    \odv{N}{t} = \frac{\lambda_{Co}\lambda_{Ni} N_{Ni,0}}{\lambda_{Co} - \lambda_{Ni}}\ab(e^{-t\lambda_{Ni}} - e^{-t\lambda_{Co}}) + \lambda_{Ni} N_{Ni,0} e^{-\lambda_{Ni} t}
+\end{equation}
+Which is fully positive since we are plugging straight into our luminosity equation (where losing particles is a gain in luminosity). We now have:
+\begin{equation}
+    L = \epsilon_m m_{nuc}\ab(\odv{N}{t}) = \epsilon_{Co}m_{Co}\ab(\frac{\lambda_{Co}\lambda_{Ni} N_{Ni,0}}{\lambda_{Co} - \lambda_{Ni}}\ab(e^{-t\lambda_{Ni}} - e^{-t\lambda_{Co}})) + \epsilon_{Ni}m_{Ni}\lambda_{Ni} N_{Ni,0} e^{-\lambda_{Ni} t}
+\end{equation}
+This can be reduced since $m_{nuc} N_0 = M_0$ :3
+\begin{equation}
+    L = \epsilon_{Co}\ab(\frac{\lambda_{Co}\lambda_{Ni} M_0}{\lambda_{Co} - \lambda_{Ni}}\ab(e^{-t\lambda_{Ni}} - e^{-t\lambda_{Co}})) + \epsilon_{Ni}M_0\lambda_{Ni} e^{-\lambda_{Ni} t}
+\end{equation}
+
+We have $\epsilon_{Co} = \qty{6.4e16}{erg/g}, \epsilon_{Ni} = \qty{3e16}{erg/g}$. This luminosity at 100 days is then:
+\begin{equation}
+    L = \epsilon_{Co}\ab(\frac{\lambda_{Co}\lambda_{Ni} M_0}{\lambda_{Co} - \lambda_{Ni}}\ab(e^{-t\lambda_{Ni}} - e^{-t\lambda_{Co}})) + \epsilon_{Ni}M_0\lambda_{Ni} e^{-\lambda_{Ni} t}
+\end{equation}
+\begin{equation}
+    L(100) = (\qty{6.4e16}{erg/g})\ab(-\ln(2)\frac{\qty{1.989e32}{g}}{(6.1)(77.7)(1/77.7 - 1/6.1)})\ab(e^{-100\ln(2)/6.1} - e^{-100\ln(2)/77.7}) + (\qty{3e16}{erg/g})(\qty{1.989e32}{g})(\ln(2)/6.1)e^{-100\ln(2)/6.1}
+\end{equation}
+Oh wow it goes off the screen. Let's condense it:
+\begin{equation}
+    L(100)_{Co} = (\qty{6.4e16}{erg/g})\ab(\ln(2)\frac{\qty{1.989e32}{g}}{(6.1)(77.7)(1/77.7 - 1/6.1)})\ab(e^{-100\ln(2)/6.1} - e^{-100\ln(2)/77.7})
+\end{equation}
+\begin{equation}
+    L(100)_{Ni} = (\qty{3e16}{erg/g})(\qty{1.989e32}{g})(\ln(2)/6.1)e^{-100\ln(2)/6.1}
+\end{equation}
+I also ommitted writing the unit for time (day) explicitly because its encumbersome. Summing these together we get:
+\begin{equation}
+    L(100) = \qty{5.0499e46}{erg/day} + \qty{7.876e42}{erg/day} = \boxed{\qty{5.05e46}{erg/day}}
+\end{equation}
+Or in seconds we have it:
+\begin{equation}
+    L = \qty{5.85e41}{erg/s}
+\end{equation}

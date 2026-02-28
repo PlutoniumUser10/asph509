@@ -1,0 +1,23 @@
+\kafkasection{For a white dwarf of density $\qty{1e6}{g/cm^3}$ consisting of only $^{12}$C, estimate the degeneracy pressure and compare it with the thermal pressure of a gas of temperature $\qty{1e7}{K}$.}
+The degeneracy pressure is given as:
+\begin{equation}
+    P \approx 0.8\hbar c \ab(\frac{Z}{A})^{4/3}\ab(\frac{\rho}{m_p})^{4/3}
+\end{equation}
+Where $Z$ is the number of protons in each species (we only have carbon-12), $A$ is the number of nucleons (12), $\rho$ the density, and $m_p = \qty{1.673e-24}{g}$.
+\begin{equation}
+    P \approx 0.8 \ab(\frac{\qty{6.626e-27}{erg\ s}}{2\pi})(\qty{2.998e10}{cm/s})\ab(\frac{6}{12})^{4/3}\ab(\frac{\qty{1e6}{g/cm^3}}{\qty{1.673e-24}{g}})^{4/3}
+\end{equation}
+\begin{equation}
+    \boxed{P \approx \qty{5.05e22}{Ba}}
+\end{equation}
+The thermal pressure is then simply the ideal gas pressure:
+\begin{equation}
+    PV = Nk_B T
+\end{equation}
+\begin{equation}
+    P = \frac{\rho k_B T}{12m_p} = \frac{(\qty{1e6}{g/cm^3})(\qty{1.381e-16}{erg/K})(\qty{1e7}{K})}{12(\qty{1.673e-24}{g})}
+\end{equation}
+\begin{equation}
+    \boxed{P = \qty{6.88e19}{Ba}}
+\end{equation}
+So the pressures differ by about a factor of 100.
