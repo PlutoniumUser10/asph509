@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/main"] 1770710562.87158 "build/main.aux" "build/main.bbl" "build/main" 1770714886.49201 0
+["bibtex build/main"] 1772475227.74901 "build/main.aux" "build/main.bbl" "build/main" 1772475231.61068 0
   "./Refs.bib" 1770713803.97974 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "build/main.aux" 1770714886.22608 616 ea42084439d5f4bc30bbd03eb59426ca "pdflatex"
+  "build/main.aux" 1772475231.30214 616 ea42084439d5f4bc30bbd03eb59426ca "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1770714885.00071 "/home/jaynardk/school/winter25/asph509/HW02/main.tex" "build/main.pdf" "main" 1770714886.49219 0
+["pdflatex"] 1772475228.0806 "/home/jaynardk/school/winter25/asph509/HW02/main.tex" "build/main.pdf" "main" 1772475231.61082 0
   "/etc/texmf/web2c/texmf.cnf" 1770359564.85098 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jaynardk/school/winter25/asph509/HW02/main.tex" 1770713803.98043 1912 eed4b46ce96690266952365a85a9af15 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -251,10 +251,10 @@
   "Question 2.tex" 1770713803.97974 5057 369b3115fc92e4bc22525c887a0c83d3 ""
   "Question 3.tex" 1770708259.20595 1891 60cf28f7693fa0d9150207d55aec8c13 ""
   "Question 4.tex" 1770712279.96078 2092 55ae9d02dc543d661c358b9719baba2f ""
-  "build/main.aux" 1770714886.22608 616 ea42084439d5f4bc30bbd03eb59426ca "pdflatex"
-  "build/main.bbl" 1770713803.97984 49 0eba253fc001332e731e8aba3f23127b "bibtex build/main"
-  "build/main.out" 1770714886.22608 384 d9f7d044641abfce5c89a03a6b78ca0f "pdflatex"
-  "build/main.toc" 1770714886.22709 204 36875b5e9c44ba3c6510e95818050958 "pdflatex"
+  "build/main.aux" 1772475231.30214 616 ea42084439d5f4bc30bbd03eb59426ca "pdflatex"
+  "build/main.bbl" 1772475228.05743 49 0eba253fc001332e731e8aba3f23127b "bibtex build/main"
+  "build/main.out" 1772475231.30239 384 d9f7d044641abfce5c89a03a6b78ca0f "pdflatex"
+  "build/main.toc" 1772475231.30239 204 36875b5e9c44ba3c6510e95818050958 "pdflatex"
   "main.tex" 1770713803.98043 1912 eed4b46ce96690266952365a85a9af15 ""
   "packages.tex" 1770713803.9805 6106 9e824db24b25ce3b1de1a4bcc13226fc ""
   (generated)

@@ -3,8 +3,33 @@
 \kafkasubsection{Given a total radiated energy of $\qty{1e50}{erg}$, and that the 
 energy entirely comes from Ni to Fe decay, determine the amount
 of Ni mass (in units of $M_{\solar}$) required.}
-
+We can find this by finding the energy release per unit mass. the energy released in the chain is about:
+\begin{equation}
+    \qty{1.1e50}{erg} \rightarrow \qty{0.6}{M_\solar}
+\end{equation}
+\begin{equation}
+    \qty{1e50}{erg}\cdot\frac{\qty{0.6}{M_\solar}}{\qty{1.1e50}{erg}} = \qty{0.545}{M_\solar}
+\end{equation}
 \kafkasubsection{How long does it take for the luminosity to drop by a factor
 of 10 during the phase that Co decay dominates the luminosity?}
+The halflife of Cobalt decay is given as $\tau = \qty{77.7}{days}$. The luminosity relation between this is:
+\begin{equation}
+    L = L_0 e^{-\lambda t}
+\end{equation}
+Where $\lambda = \ln(2)/\tau$. We have:
+\begin{equation}
+    0.1L_0 = L_0 e^{-\ln(2)t/\tau}
+\end{equation}
+\begin{equation}
+    \ln(0.1) = -\ln(2)t\tau
+\end{equation}
+\begin{equation}
+    -\frac{\ln(0.1)}{\ln(2)}\tau = t
+\end{equation}
+\begin{equation}
+    t = 3.32\tau = \qty{258}{days}
+\end{equation}
+So it takes 258 days lol.
 \kafkasubsection{Does the luminosity drop more quickly or more slowly when
 the supernova becomes optically thin to Co decay radiation?}
+The luminosity drops more quickly since energy, in the form of high energy rays, escapes the system faster (no internal heat source from scattering).
