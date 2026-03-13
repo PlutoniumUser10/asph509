@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/main"] 1773112964.51494 "build/main.aux" "build/main.bbl" "build/main" 1773112968.63612 0
+["bibtex build/main"] 1773390929.75491 "build/main.aux" "build/main.bbl" "build/main" 1773390934.21539 0
   "./Refs.bib" 1772760556 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "build/main.aux" 1773112968.29469 1404 fe14b2a2cbae541e62cdfcb6f5c5beb4 "pdflatex"
+  "build/main.aux" 1773390933.81908 1407 d0b9f7ff4d6eb7c90f967c3232bce167 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1773112964.82393 "/home/jaynardk/school/winter25/asph509/HW04/main.tex" "build/main.pdf" "main" 1773112968.63625 0
+["pdflatex"] 1773390930.07617 "/home/jaynardk/school/winter25/asph509/HW04/main.tex" "build/main.pdf" "main" 1773390934.21559 0
   "/etc/texmf/web2c/texmf.cnf" 1770359564.85098 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jaynardk/school/winter25/asph509/HW04/main.tex" 1773112871.96637 1951 909a9c68e5c3b44522c5753f536fe53e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -37,10 +37,12 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -245,15 +247,15 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770359582 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770359677 3348573 56496a3ce62a63360b1e30014a30b9b7 ""
   "Logo.png" 1772760556 52432 03ebcf495fd39aaf7d3320561be08453 ""
-  "Question 1.tex" 1773036805.44184 140 9ce38edb352b8f5cc413b6cee52230fe ""
+  "Question 1.tex" 1773390616.87797 855 afc2e645276c495b0bed2bd97ac42c5d ""
   "Question 2.tex" 1773036827.36624 950 848a05ab56206a13bf302be0e9449d98 ""
   "Question 3.tex" 1773112707.30275 387 a5cf3cf3ac4f09443da9c39d455c3db7 ""
-  "Question 4.tex" 1773112707.26535 391 03ea92c8d5cc5fa4780824bf2f31cd87 ""
+  "Question 4.tex" 1773390924.30799 849 2cfae5713253b50e7e0a1f49700348fe ""
   "Question 5.tex" 1773112959.23366 707 326e7ffe3efa19562686ebb400c7bdc9 ""
-  "build/main.aux" 1773112968.29469 1404 fe14b2a2cbae541e62cdfcb6f5c5beb4 "pdflatex"
-  "build/main.bbl" 1773112964.80068 49 0eba253fc001332e731e8aba3f23127b "bibtex build/main"
-  "build/main.out" 1773112968.29569 1263 2a2fb2a2d6c1a130621493a83382f56e "pdflatex"
-  "build/main.toc" 1773112968.29569 664 cb5ec5736310f041d4be5d64443db6b9 "pdflatex"
+  "build/main.aux" 1773390933.81908 1407 d0b9f7ff4d6eb7c90f967c3232bce167 "pdflatex"
+  "build/main.bbl" 1773390930.05414 49 0eba253fc001332e731e8aba3f23127b "bibtex build/main"
+  "build/main.out" 1773390933.82008 1266 5a2694d1f46d6986be973a7e2fbe81ce "pdflatex"
+  "build/main.toc" 1773390933.82008 667 f58f05656838a195b22b7e16008439e0 "pdflatex"
   "main.tex" 1773112871.96637 1951 909a9c68e5c3b44522c5753f536fe53e ""
   "packages.tex" 1772760556 6106 9e824db24b25ce3b1de1a4bcc13226fc ""
   (generated)
