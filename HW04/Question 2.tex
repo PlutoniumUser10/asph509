@@ -1,7 +1,50 @@
 \kafkasection{Pulsar Energetics}
 
 \kafkasubsection{Estimate the magnetic field of a pulsar (1 solar mass, radius of 10km). Assume it forms from a star of 1 solar mass and 1 solar radius with dipole magnetic field with polar surface field strength of 200 Gauss. Assume flux conservation.}
-
+The flux conservation is key to this estimate. Since the area goes as radius squared, we get::
+\begin{equation}
+    \frac{B_p(\qty{1}{R_\solar})}{B_p(\qty{10}{km})} = \frac{(\qty{10}{km})^2}{(\qty{1}{R_\solar})^2}
+\end{equation}
+\begin{equation}
+    B_p(\qty{10}{km}) = \frac{(\qty{1}{R_\solar})^2B_p(\qty{1}{R_\solar})}{(\qty{10}{km})^2} = \frac{(\qty{6.960e6}{km})^2(\qty{200}{G})}{(\qty{10}{km})^2} = \qty{9.69e13}{G}
+\end{equation}
 \kafkasubsection{Estimate the kick velocity of a neutron star. Assume a uniform density $M = \qty{1.4}{M_\solar}$, $R = \qty{10}{km}$ neutron star and calculate the energy release, assuming an initial uniform density core with radius of 2000 km.  Assume 99\% of the collapse energy is radiated as neutrinos; and assume the momentum asymmetry of the emitted neutrinos is 1\%.}
-
+The typical energy released in neutrinos for a new neutron star is $\qty{1e53}{erg}$. If we assume that $1\%$ of this is then asymmetric, we can say that this energy directly kicks the neutron star back. This then
+\begin{equation}
+    E_{kick} = \qty{1e51}{erg} = (\gamma-1) mc^2
+\end{equation}
+Where we get the velocity as:
+\begin{equation}
+    v = c\sqrt{1- \ab(\frac{mc^2}{E_{kick}+mc^2})^2} = c\sqrt{1- \ab(\frac{(1.4\cdot\qty{1.989e33}{g})c^2}{\qty{1e51}{erg}+(1.4\cdot\qty{1.989e33}{g})c^2})^2}
+\end{equation}
+When $c = \qty{2.998e10}{cm/s}$, we get:
+\begin{equation}
+    v = \qty{8.44e8}{cm/s} = \qty{8.44e3}{km/s}
+\end{equation}
 \kafkasubsection{Calculate $I$ for a neutron star in terms of $M$ and $R$, assuming uniform density (show your calculation of $I$, using the definition of moment of inertia of an extended object). Give the numerical value for a $M=\qty{1.4}{M_\solar}$, $R=\qty{12}{km}$ neutron star.}
+The definition goes as:
+\begin{equation}
+    I = \int r^2\d m
+\end{equation}
+where $r$ is the distance away from the axis of rotation. Since we can define this axis to be the z-axis, and we take the coordinate to be:
+\begin{equation}
+    z = r\sin\theta
+\end{equation}
+where $r$ is the $r$ in spherical coordinates. Turning this integral into a volume integral where $\d m = \rho \d V = \rho r^2\sin\theta \d r \d \theta \d \phi$.
+\begin{equation}
+    I = \int_{0}^{R}\int_{0}^{\pi}\int_{0}^{2\pi}(r\sin\theta)^2\rho r^2\sin\theta\d \phi \d \theta \d r
+\end{equation}
+\begin{equation}
+    I = \rho\int_{0}^{R}r^4\d r\int_{0}^{\pi}\sin^3\theta\d \theta\int_{0}^{2\pi}\d \phi
+\end{equation}
+\begin{equation}
+    I = \rho\ab(\frac{R^5}{5})\ab(\frac{4}{3})\ab(2\pi)
+\end{equation}
+Since we have uniform density, we get with the density:
+\begin{equation}
+    I = \ab(\frac{M}{(4/3)\pi R^3})\ab(\frac{8\pi R^5}{15}) =\frac{2MR^2}{5}
+\end{equation}
+Inserting numbers we get:
+\begin{equation}
+    I =\frac{2MR^2}{5} = \frac{2(1.4\cdot \qty{1.989e33}{g})(\qty{12}{\cdot10^5 cm})^2}{5} = \qty{1.60e45}{g\ cm^2}
+\end{equation}

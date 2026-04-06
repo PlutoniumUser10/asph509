@@ -9,11 +9,44 @@ Where $\epsilon$ is the dielectric constant of the medium through which the wave
 is the plasma frequency. Work out the group velocity $v_{group} = \pdv{\omega}{k}$ 
 and the travel time.
 \begin{equation}
-    t_{travel} = \frac{d}{c^2} + \frac{2\pi e^2}{m_e \omega^2}DM
+    t_{travel} = \frac{d}{c} + \frac{2\pi e^2}{m_e \omega^2}DM
 \end{equation}
 Where $d/c$ is the travel time at very high frequencies, and DM is the dispersion measure defined as:
 \begin{equation}
     DM = \int_{0}^{d} n_e \d s
 \end{equation}
-Equation 5.73 is missing factor of 1/c on the RHS
-}
+Equation 5.73 is missing factor of 1/c on the RHS}
+Let's input $\epsilon$ into the expression for the dispersion relation:
+\begin{equation}
+    \omega^2 = \frac{c^2k^2}{1 - \omega_p^2/\omega^2}
+\end{equation}
+Let's put this in terms of $k$ to take advantage of this random ahh $1- \omega_p^2/\omega^2$
+\begin{equation}
+    k = \frac{\omega}{c}\sqrt{1-\omega_p^2/\omega^2}
+\end{equation}
+The partial w.r.t $\omega$ is then:
+\begin{align}
+    \pdv{k}{\omega} &= \frac{1}{c}\sqrt{1-\omega_p^2/\omega^2}+ \frac{\omega}{2c}\ab(1-\omega_p^2/\omega^2)^{-1/2}\ab(\frac{-2\omega_p^2}{\omega^{3}})\\
+    &= \frac{1}{c}\ab(1-\omega_p^2\omega^2)^{-1/2}
+\end{align}
+The group velocity given by the following partial is then:
+\begin{equation}
+    v_{group} = \ab(\pdv{k}{\omega})^{-1} = c\sqrt{1-\omega_p^2/\omega^2}
+\end{equation}
+The travel time is then:
+\begin{align}
+    t_{travel} &= \int_{0}^{d}\frac{1}{v_{group}}\d s\\
+    &= \int_{0}^{d}\frac{1}{c\sqrt{1-\omega_p^2/\omega^2}}\d s\\
+    &= \int_{0}^{d}\frac{1}{c}\ab(1-\omega_p^2/\omega^2)^{-1/2}\d s\\
+    &= \int_{0}^{d}\frac{1}{c}\ab(1-\frac{4\pi n_e e^2}{m_e\omega^2})^{-1/2}\d s\\
+    &= \int_{0}^{d}\frac{1}{c}\ab(1+\frac{2\pi n_e e^2}{m_e\omega^2})\d s
+\end{align}
+Where we used the binomial expansion to get rid of the square root.
+The itegral is then:
+\begin{equation}
+    \frac{d}{c}+\frac{2\pi e^2}{c m_e\omega^2}\int_{0}^{d}n_e \d s
+\end{equation}
+Where we finally have:
+\begin{equation}
+    t_{travel} = \frac{d}{c}+\frac{2\pi e^2}{c m_e\omega^2}DM
+\end{equation}

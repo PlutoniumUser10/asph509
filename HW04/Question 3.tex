@@ -2,3 +2,48 @@
 \kafkasubsection{Derive the formula for the energy loss rate and rate of change of angular frequency and of period, for a rotating magnetic dipole with tilt angle $\alpha$ between the magnetic and rotation axes.
 Start with the Larmor formula and show all steps required for the calculation. 
 Write the solution in terms of the polar magnetic field, $B_p$.}
+We have Larmor formula as:
+\begin{equation}
+    \odv{W}{t} = -\frac{2}{2c^3}\abs{\vec{\ddot{d}}}^2 
+\end{equation}
+For a magnetic dipole we get the equivalent:
+\begin{equation}
+    \odv{W}{t} = -\frac{2}{2c^3}\abs{\vec{\ddot{m}}}^2 
+\end{equation}
+Where $m$ is the magnetic dipole moment. We then have $\vec{m} = m_0\hat{e}_m$, where $m_0 = B_p R^3/2$ and $\hat{e}_m = (\sin\alpha\cos\omega t, \sin\alpha\sin\omega t, \cos\alpha)$. The time derivatives are then:
+\begin{equation}
+    \odv{\hat{e}_m}{t} = \omega (-\sin\alpha\sin\omega t, \sin\alpha\cos\omega t, 0)
+\end{equation}
+\begin{equation}
+    \odv[order=2]{\hat{e}_m}{t}=\omega^2(-\sin\alpha\cos\omega t, -\sin\alpha\sin\omega t, 0)
+\end{equation}
+Taking the squared absolute value gives:
+\begin{equation}
+    \ab(\sqrt{\omega^4\sin^2\alpha\sin^2\omega t + \omega^4\sin^2\alpha\cos^2\omega t})^2 = \omega^4\sin^2\alpha(\sin^2\omega t + \cos^2\omega t)
+\end{equation}
+The extra factor at the end is identically 1 so we finally have:
+\begin{equation}
+    \abs{\vec{\ddot{m}}}^2 = m_0^2 \omega^4\sin^2\alpha
+\end{equation}
+So we finally have:
+\begin{equation}
+    \boxed{\odv{W}{t} = -\frac{B_p^2R^6}{6c^3}\omega^4\sin^2\alpha}
+\end{equation}
+Relating this to the change in angular frequency comes from the rotational energy:
+\begin{equation}
+    E_{rot} = \frac{1}{2}I\omega^2
+\end{equation}
+\begin{equation}
+    \odv{E_{rot}}{t} = I\omega\dot{\omega}
+\end{equation}
+Omg we can say that this is identical to the energy loss rate, and so we can equate them:
+\begin{equation}
+    I\omega\dot{\omega} = -\frac{B_p^2R^6}{6c^3}\omega^4\sin^2\alpha
+\end{equation}
+\begin{equation}
+    \dot{\omega} = -\frac{B_p^2R^6\omega^3\sin^2\alpha}{6c^3I}
+\end{equation}
+This quantity will always be less that zero, which shows that pulsars slow down. The period slow down is then just:
+\begin{equation}
+    \dot{P} = -\frac{2\pi}{\omega^2}\dot{\omega} = \frac{\pi B_p^2R^6\omega^3\sin^2\alpha}{3c^3I}
+\end{equation}

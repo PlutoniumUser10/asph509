@@ -9,8 +9,53 @@ remains valid until the stars come into contact. SHow that the inspiral time fro
 \end{equation}
 Where $M$ is the total and $\mu$ the reduced mass. 
 }
+We get a reduced equation when we consider zero eccentricity:
+\begin{equation}
+    \odv{a}{t} = -\frac{64G^3m_1m_2M}{5a^3c^5}
+\end{equation}
+Let's absorb $m_1m_2 = \mu M$:
+\begin{equation}
+    \odv{a}{t} = -\frac{64G^3\mu M^2}{5a^3c^5}
+\end{equation}
+We can then treat this as a separable equation to recover the inspiral time (from when we go from $a_0\rightarrow 0$):
+\begin{equation}
+    a^3\d a = -\frac{64G^3\mu M^2}{5c^5}\d t
+\end{equation}
+\begin{equation}
+    \int_{a_0}^{0}a^3 \d a = \int_{0}^{\tau_{insp}}- \frac{64G^3\mu M^2}{5c^5}\d t
+\end{equation}
+\begin{equation}
+    -\frac{a_0^4}{4} = -\frac{64G^3\mu M^2}{5c^5} \tau_{insp}
+\end{equation}
+Where we finally have:
+\begin{equation}
+    \tau_{insp} = \frac{5}{256}\frac{c^5}{G^3}\frac{a_0^4}{M^2\mu}
+\end{equation}
 \kafkasubsection{ Use equation 6.48 of the text to derive the inspiral time from initial orbital separation $a_0$ to final separation $a_f$ when the two stars come into contact.
 Assume zero eccentricity.}
-
+\begin{equation}
+    \tau_{insp} = \frac{5}{256}\frac{c^5}{G^3}\frac{a_0^4-a_f^4}{M^2\mu}
+\end{equation}
+Where we simply had a non zero bound on our in our integration of the separation.
 \kafkasubsection{ A system of two neutron stars, each of mass 1.4 Msun and radius 10 km, has circular orbit with initial
 orbital period of 60 s. Find the inspiral time.}
+We have that $M = m_1 + m_2 = 2m_1$, which means that $\mu = m_1/2$. From the period, we know that Kelper's third gives:
+\begin{equation}
+    T^2 = \frac{4\pi^2}{GM}a^3
+\end{equation}
+So our separation is then:
+\begin{equation}
+    a = \ab(\frac{GMT^2}{4\pi^2})^{1/3}
+\end{equation}
+The insp time is then:
+\begin{equation}
+    \tau_{insp} = \frac{5}{256}\frac{c^5}{G^3}\frac{a^4}{M^2\mu}
+\end{equation}
+Where we neglect the final separation of $\qty{20}{km}$
+\begin{equation}
+    \tau_{insp} = \frac{5}{256}\frac{(\qty{2.998e10}{cm/s})^5}{(\qty{6.673e-8}{dyne\ cm^2\ g^{-2}})^3}\frac{1}{2(1.4\cdot\qty{1.989e33}{g})^3}\ab(\frac{\qty{6.673e-8}{dyne\ cm^2\ g^{-2}}(2\cdot1.4\cdot\qty{1.989e33}{g})(60s)^2}{4\pi^2})^{4/3}
+\end{equation}
+Aight lets calculate this:
+\begin{equation}
+    \tau_{insp} = \qty{4.04e9}{s}
+\end{equation}
