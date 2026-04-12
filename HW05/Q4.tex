@@ -1,0 +1,39 @@
+\kafkasection{What electron energy E is required for electrons to emit synchrotron radiation at a frequency of the peak of a gamma-ray burst spectrum (peak at 200 keV), given B= 1 Gauss? 
+}
+\kafkasubsection{Find the electron energy E for the case of a synchrotron source not moving with respect to the observer.}
+We have a synchrotron radiation photon with energy related to the peak frequency of the GRB spectrum.
+\begin{equation}
+    E_p = \hbar \omega_{peak}
+\end{equation}
+This peak frequency by nature of being from a synchrotron emission source is given by:
+\begin{equation}
+    \omega_{peak} = 0.3\omega_c = \gamma^2 \frac{qB}{m_e c}
+\end{equation}
+This $\gamma^2$ factor is the $\gamma$ in $E_e = \gamma m_e c^2$, the energy of the electron, so we will substitute this in:
+\begin{equation}
+    E_p = \hbar 0.3\ab(\frac{E_e}{m_e c^2})^2\frac{qB}{m_e c}
+\end{equation}
+Now we can rearrange for $E_e$.
+\begin{equation}
+    E_e = \sqrt{\frac{E_p m_e c}{\hbar 0.3 qB}} m_e c^2
+\end{equation}
+With $E_p = \qty{200}{keV}$, and inserting values we then get:
+\begin{equation}
+    E_e = \sqrt{\frac{(\qty{200 000}{eV}) (\qty{9.11e-28}{g}) (\qty{2.998e10}{cm/s})}{0.3(\qty{6.582e-16}{eV s})(\qty{4.803e-10}{esu})(\qty{1}{gauss})}} (\qty{4.803e-10}{esu}) (\qty{2.998e10}{cm/s})^2
+\end{equation}
+This is then:
+\begin{equation}
+    \boxed{E_e = \qty{3.28e18}{erg}}
+\end{equation}
+\kafkasubsection{Find E for the case that the source is moving directly towards the observer with Lorentz factor $\gamma=200$.}
+We will use the same equation but modify the energy of the photon recieved as it undergoes a blueshift. This energy observed of the photon is given by:
+\begin{equation}
+    E_{p,obs} = E_{p,em} \gamma
+\end{equation}
+So with a $\gamma$ of 200, we get:
+\begin{equation}
+    E_e = \sqrt{\frac{(200\cdot\qty{200 000}{eV}) (\qty{9.11e-28}{g}) (\qty{2.998e10}{cm/s})}{0.3(\qty{6.582e-16}{eV s})(\qty{4.803e-10}{esu})(\qty{1}{gauss})}} (\qty{4.803e-10}{esu}) (\qty{2.998e10}{cm/s})^2
+\end{equation}
+\begin{equation}
+    \boxed{E_e = \qty{4.63e19}{erg}}
+\end{equation}
