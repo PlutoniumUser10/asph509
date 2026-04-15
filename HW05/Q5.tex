@@ -21,7 +21,23 @@ Uh oh that's $\qty{7.59}{c}$
 \kafkasubsection{What angle is the plasma moving with respect to our line-of-sight to the quasar (in degrees) if gamma=1000?
 Hint: Use Figure 1.5 and related equations of special relativity to solve part ii.
 }
-The angle is given by:
+We have an equation which relates the frequency we observe and the angle made with our line of sight of the plasma motion:
 \begin{equation}
-    \theta = \frac{1}{\gamma} = \qty{0.001}{rad}
+    \omega_{obs} = \frac{\omega_{source}}{\gamma[1-(v/c)\cos\theta]}
+\end{equation}
+Let's rearrange this for $\theta$:
+\begin{equation}
+    1 -(v/c)\cos\theta = \frac{\omega_{source}}{\gamma\omega_{obs}}
+\end{equation}
+We then have 
+\begin{equation}
+    \cos\theta = \frac{c}{v}\ab(1 - \frac{\omega_{source}}{\gamma\omega_{obs}})
+\end{equation}
+When we have $\gamma = 1000$, we get a velocity value of $v = \qty{2.997998501e10}{cm/s}$. When we consider that $\omega = \frac{2\pi}{t}$, and that $t_{source} = r/v$, We get:
+\begin{equation}
+    \cos\theta = \frac{c}{v}\ab(1 - \frac{(10\cdot\qty{3.154e7}{s})}{\gamma(r/v)})
+\end{equation}
+Inserting values we get:
+\begin{equation}
+    \cos\theta = 0.9998688, \theta = \qty{0.01619}{rad}
 \end{equation}
